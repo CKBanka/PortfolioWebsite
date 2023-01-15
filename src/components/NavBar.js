@@ -1,14 +1,11 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom'
 function NavBar() {
   return (
     <nav className={`navbar navbar-expand-lg navbar-dark bg-${'#0a192f'}`} style={{color:'white',fontSize: '100%',fontWeight: "bold",marginRight:'0%',width:'120%'}}>
         <Helmet>
       <link href='brush_script_mt_kursiv.ttf' rel='stylesheet'/>
     </Helmet>
-        <Router>
       <span className="navbar-brand " to="/" style={{fontFamily: 'cursive', fontSize: '120%', fontWeight: 'bold',color:'#64ffda'}}>&nbsp;&nbsp;YoungDragon</span>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -33,7 +30,6 @@ function NavBar() {
           </a>
         </ul>
       </div>
-      </Router>
     </nav>
   )
 }
