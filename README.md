@@ -19,7 +19,7 @@ Feel free to clone and modify according to your needs. But please give desirable
 <!-- CONTACT -->
 ## Contact
 
-Email ID - aaryan20004@iiitd.ac.in
+Email ID - chiragbanka1@gmail.com
 
 
 
